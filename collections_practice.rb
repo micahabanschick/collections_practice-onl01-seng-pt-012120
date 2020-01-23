@@ -26,7 +26,7 @@ def kesha_maker(arr)
 end 
 
 def find_a(arr)
-  narr = arr.filter {|word| word.start_with?(a)}
+  narr = arr.filter {|word| word[0] == "a"}
   narr
 end 
 
