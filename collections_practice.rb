@@ -14,11 +14,11 @@ def sort_array_char_count(arr)
 end 
 
 def swap_elements(arr)
-  (arr)
+  arr[1] <=> arr[2]
 end 
 
 def reverse_array(arr)
-  (arr)
+  arr.reverse
 end 
 
 def kesha_maker(arr)
@@ -26,7 +26,8 @@ def kesha_maker(arr)
 end 
 
 def find_a(arr)
-  (arr)
+  narr = arr.filter {|word| word.start_with?(a)}
+  narr
 end 
 
 def sum_array(arr)
