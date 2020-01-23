@@ -35,5 +35,8 @@ def sum_array(arr)
 end 
 
 def add_s(arr)
-  (arr)
+  if arr[1]
+    nil 
+  else 
+    arr.each {|word| word + "s"}
 end   
