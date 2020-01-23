@@ -41,6 +41,7 @@ def add_s(arr)
     return arr.each {|word| narr << "#{word}s"} if i != 2
     i += 1
   end 
+  narr
 end   
 
 
