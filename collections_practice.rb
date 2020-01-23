@@ -4,7 +4,8 @@ def sort_array_asc(arr)
 end 
   
 def sort_array_desc(arr)
-  (arr)
+  narr = arr.sort {|a,b| a<=>b}
+  narr.reverse
 end 
 
 def sort_array_char_count(arr)
