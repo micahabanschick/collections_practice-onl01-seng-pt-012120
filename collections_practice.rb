@@ -1,11 +1,11 @@
 def sort_array_asc
-    should return an array sorted in ascending order (FAILED - 1)
+    
 def sort_array_desc
-  should return an array sorted in descending order (FAILED - 2)
+  
 def sort_array_char_count
-  should return an array in ascending order sorted by the number of characters in the string (FAILED - 3)
+ 
 def swap_elements
-  swap the second and third elements of an array (FAILED - 4)
+  
 def reverse_array
   reverse the order of an array of integers (FAILED - 5)
 def kesha_maker
