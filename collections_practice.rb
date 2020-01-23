@@ -9,7 +9,8 @@ def sort_array_desc(arr)
 end 
 
 def sort_array_char_count(arr)
-  (arr)
+  narr = arr.sort {|a,b| a.length<=>b.length}
+  narr
 end 
 
 def swap_elements(arr)
