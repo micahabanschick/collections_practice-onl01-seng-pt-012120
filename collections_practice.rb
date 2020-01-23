@@ -35,9 +35,12 @@ def sum_array(arr)
 end 
 
 def add_s(arr)
-  if arr[1]
-    next 
-  else 
-    arr.each {|word| word + "s"}
+  i = 0
+  while i < arr.length do 
+    if i != 2
+      arr.each {|word| word + "s"}
+    end 
   end 
 end   
+
+
