@@ -36,10 +36,9 @@ end
 
 def add_s(arr)
   i = 0
+  narr = []
   while i < arr.length do 
-    if i != 2
-      arr.each {|word| word + "s"}
-    end 
+    return arr.each {|word| narr << word + "s"} if i != 2
     i += 1
   end 
 end   
