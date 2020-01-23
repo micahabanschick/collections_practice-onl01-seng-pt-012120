@@ -38,9 +38,9 @@ def add_s(arr)
   i = 0
   narr = []
   while i < arr.length do 
-    if i != 2 
+    if i != 1 
       narr << "#{arr[i]}s"
-    elsif i == 2 
+    elsif i == 1 
       narr << "#{arr[i]}"
     end 
     i += 1
