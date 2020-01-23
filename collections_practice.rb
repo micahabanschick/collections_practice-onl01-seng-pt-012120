@@ -40,6 +40,7 @@ def add_s(arr)
     if i != 2
       arr.each {|word| word + "s"}
     end 
+    i += 1
   end 
 end   
 
