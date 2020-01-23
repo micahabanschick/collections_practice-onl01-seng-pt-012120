@@ -39,4 +39,5 @@ def add_s(arr)
     nil 
   else 
     arr.each {|word| word + "s"}
+  end 
 end   
