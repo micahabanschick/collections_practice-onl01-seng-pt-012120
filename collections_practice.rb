@@ -41,7 +41,7 @@ def add_s(arr)
     if i != 2 
       narr << "#{arr[i]}s"
     elsif i == 2 
-      arr << "#{arr[i]}"
+      narr << "#{arr[i]}"
     end 
     i += 1
   end 
