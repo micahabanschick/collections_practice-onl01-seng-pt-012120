@@ -14,17 +14,17 @@ def sort_array_char_count(arr)
 end 
 
 def swap_elements(arr)
-  arr[1..2].reverse 
-  return arr
-end 
+  arr[1], arr[2] = arr[2], arr[1]
+  arr
+end
 
 def reverse_array(arr)
   arr.reverse
-end 
+end
 
 def kesha_maker(arr)
-  (arr)
-end 
+  arr.each {|i| i[2] = "$"}
+end
 
 def find_a(arr)
   narr = arr.filter {|word| word[0] == "a"}
